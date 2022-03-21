@@ -1,0 +1,240 @@
+*{
+    background-color: rgb(43, 44, 73);
+}
+
+
+@keyframes bgcolor {
+    0% {
+        background-color: #45a3e5
+    }
+
+    30% {
+        background-color: #66bf39
+    }
+
+    60% {
+        background-color: #eb670f
+    }
+
+    90% {
+        background-color: #f35
+    }
+
+    100% {
+        background-color: #864cbf
+    }
+}
+
+
+.headerSpacing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.myHeader {
+    font-size:50px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Yuji Syuku', serif;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    width: 500px;
+    height: 100px;
+}
+
+.headerSpace {
+    display: flex;
+    font-size:25px;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Yuji Syuku', serif;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    width: 500px;
+    height: 100px;
+}
+
+
+.searchBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbarBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:blue;
+    width: 1000px;
+    height: 50px;
+    border-radius: 20px;
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+#navItemsMe {
+    margin-top: 75px;
+    margin: 25px;
+    color: white;
+    border-radius: 20px;
+    
+}
+
+#dropDownMe {
+    background-color: white;
+    color: black;
+}
+
+.bioMe {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: 500px;
+}
+
+.bioBoxMe {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: rgb(49, 48, 54);;
+}
+
+.bioMeHeader {
+    justify-content: center;
+    margin: 0 auto;
+    text-decoration: underline;
+    color: white;
+    background-color: rgb(49, 48, 54);;
+}
+
+.MyBiography {
+    margin-top: 35px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: white;
+    background-color: rgb(49, 48, 54);
+}
+
+.bioPictureBox {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    width: 700px;
+    border-radius: 20px;
+}
+
+.imgSmallMe {
+    width: 300px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.imgLargeMe {
+    width: 500px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.displayProjects {
+    margin-bottom: 80px;
+    width: 100%; 
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects {
+    width: 80%;
+    height: 80%;
+}
+
+.theProjects {
+    flex-direction: column;
+}
+
+.projectListTop {
+    background-color: green;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: row;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    border: 3px solid green;
+    width: 80%;
+    height: 80%;
+    background-color: rgb(49, 48, 54);
+}
+
+.imgAdj {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+#projectBox {
+    display: flex;
+    flex-direction: row;
+}
+
+.projectText {
+    color: white;
+    margin: 15px;
+    align-content: center;
+    font-size: 24px;
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid gray;
+}
+
+.projectInnerText {
+    font-size: 16px;
+    margin-top: 15px;
+    
+}
+
+.projectIntroBox{
+    color: white;
+    margin: 20px auto;
+    margin-top: 10%;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    width: 100%;
+    width: 80%;
+}
+
+.projectIntro {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    color : white;
+    line-height: 150%;
+    margin: 20px auto;
+}
+
