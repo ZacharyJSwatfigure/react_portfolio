@@ -23,7 +23,7 @@ export default function Projects() {
                     <section className="projects">
                         <section className="theProjects">
                             <div id="projectBox">
-                                <img className="imgAdj" src={quiz} />
+                                <a href = 'https://github.com/ZacharyJSwatfigure/Week4QuizHW' target = '_blank'><img id = 'quiz-link' className="imgAdj" src={quiz} /></a>
                                 <div className="projectText"> Quiz Game
                                     <p className="projectInnerText">This project required that I create a quiz game. Has a small list of questions that render dynamically on the page requiring an answer by multiple choice. One of my first Javascripting projects.</p>
                                 </div>
@@ -32,10 +32,10 @@ export default function Projects() {
                                 <div className="projectText"> Password Generator
                                     <p className="projectInnerText">A succesful attampt at a user-friendly password generator. Can create a random password that meets all password requirements. Takes user input to ensure specifications are met.</p>
                                 </div>
-                                <img className="imgAdj" src={passwordGen} />
+                                <a href = 'https://github.com/ZacharyJSwatfigure/RandPassGenW3HW' target = '_blank'><img id = 'passwordGen-link' className="imgAdj" src={passwordGen} /></a>
                             </div>
                             <div id="projectBox">
-                                <img className="imgAdj" src={foovie} />
+                            <a href = 'https://github.com/ZacharyJSwatfigure/FoovieMoodProject' target = '_blank'><img id = 'foovie-link' className="imgAdj" src={foovie} /></a>
                                 <div className="projectText"> The Foovie Mood
                                     <p className="projectInnerText">Fun group project requiring that we combine two API's into a front-end web application. Pick a Movie and find a dish from that movies's country of origin.</p>
                                 </div>
@@ -46,7 +46,7 @@ export default function Projects() {
                                         around a fictional dungeon crawler MMO called 'Mouse Quest'. A visitor to the page is able to create a profile with an email address, unique username, and thier own password to login.
                                         Users are able to create an account and post what they think the best builds are for thier characters. The post will display all user input and the username of the person who posted it.</p>
                                 </div>
-                                <img className="imgAdj" src={mouse} />
+                                <a href = 'https://github.com/nparker80/MouseQuest' target = '_blank'><img id = 'mouse-link' className="imgAdj" src={mouse} /></a>
                             </div>
                         </section>
                     </section>

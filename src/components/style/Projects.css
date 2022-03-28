@@ -43,7 +43,7 @@
     align-items: center;
     font-family: 'Yuji Syuku', serif;
     background-color: black;
-    color: white;
+    color: black;
     border-radius: 20px;
     width: 500px;
     height: 100px;
@@ -58,7 +58,7 @@
     font-family: 'Yuji Syuku', serif;
     align-items: center;
     background-color: black;
-    color: white;
+    color: black;
     border-radius: 20px;
     width: 500px;
     height: 100px;
@@ -88,13 +88,13 @@
 #navItemsMe {
     margin-top: 75px;
     margin: 25px;
-    color: white;
+    color: black;
     border-radius: 20px;
     
 }
 
 #dropDownMe {
-    background-color: white;
+    background-color: black;
     color: black;
 }
 
@@ -120,7 +120,7 @@
     justify-content: center;
     margin: 0 auto;
     text-decoration: underline;
-    color: white;
+    color: black;
     background-color: rgb(49, 48, 54);;
 }
 
@@ -128,7 +128,7 @@
     margin-top: 35px;
     margin-right: 10px;
     margin-left: 10px;
-    color: white;
+    color: black;
     background-color: rgb(49, 48, 54);
 }
 
@@ -203,7 +203,7 @@
 }
 
 .projectText {
-    color: white;
+    color: black;
     margin: 15px;
     align-content: center;
     font-size: 24px;
@@ -219,7 +219,7 @@
 }
 
 .projectIntroBox{
-    color: white;
+    color: black;
     margin: 20px auto;
     margin-top: 10%;
     align-items: center;
@@ -233,7 +233,7 @@
     text-align: center;
     margin: 0 auto;
     font-size: 16px;
-    color : white;
+    color : black;
     line-height: 150%;
     margin: 20px auto;
 }

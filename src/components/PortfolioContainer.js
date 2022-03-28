@@ -5,7 +5,8 @@ import About from './pages/About';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
-
+import '../components/style/Header.css';
+import mePic from './images/meSmaller.jpg';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -31,7 +32,17 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      <h1>oigw;foigIOWGFOIw</h1>
+      <section>
+        <div className="picAndName">
+          <img className = "mePic" src = {mePic}/>
+          <div>
+            <h1 className="hello">
+              Hello!
+            </h1>
+          </div>
+        </div>
+        <div className="titleMe">Zachary's Portfolio</div>
+      </section>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
     </div>

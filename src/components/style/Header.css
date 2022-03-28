@@ -1,0 +1,33 @@
+* {
+    background-color: rgb(119, 179, 119);
+}
+.picAndName {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hello{
+    margin-left: 20%;
+    color: black;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.mePic {
+    border: 3px solid black;
+    width: 10%;
+    height: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.titleMe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-size: 25px;
+    color: black;
+    font-family:'Press Start 2P','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}

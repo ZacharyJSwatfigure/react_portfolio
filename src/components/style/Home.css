@@ -1,0 +1,89 @@
+.homeContainer{
+    display:flex;
+    margin: 25px auto;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.welcomeBox{
+    display:flex;
+    column-count: 5;
+}
+
+.title {
+    color: black;
+    font-family: 'Space Grotesk', sans-serif;
+    text-decoration: 1px underline;
+    background-color: rgb(63, 87, 63);
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px;
+}
+
+.aboutHome {
+    color: black;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.blurb {
+    background-color: rgb(98, 145, 98);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px;
+}
+
+.pictureContainer {
+    display: flex;
+    justify-content: center;
+    margin-right: 8%;
+}
+
+.bioPictureBox {
+    flex-direction: row;
+    border-radius: 20px;
+}
+
+.imgSmallMe {
+    width: 30%;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.imgLargeMe {
+    width: 70%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.resumeContainer {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    height: 800px;
+    overflow:hidden;
+    margin-bottom: 20%;
+    margin-top: 20px;
+}
+
+.titleSmall {
+    color: black;
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: rgb(78, 133, 78);
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px;
+    margin-top: 5%;
+}
+
+.contact-box {
+    margin: 20px auto;
+    width: 80%
+}
+
+.contact-list {
+    list-style: none;
+    margin: 20px auto
+}
+
+.links {
+    color: black;
+}
